@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import styles from '../styles/navbar.module.css'
+import * as navStyles from '../styles/navbar.module.scss'
 
-const Navbar = ({currentPage}) => {
+const Navbar = () => {
     return (
             <nav>
                     <a><Link to="/">Home</Link></a>
