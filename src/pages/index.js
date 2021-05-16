@@ -1,12 +1,14 @@
 import * as React from "react"
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
+import Header from "../components/header"
 import styles from "../styles/global.module.css"
 
 const IndexPage = () => {
   return (
     <main>
       <Navbar></Navbar>
+      <Header></Header>
       <article class="article1">
         <h2>My First Website</h2>
         <p>Welcome to my first website! Take a look around.</p>
