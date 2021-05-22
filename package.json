@@ -1,4 +1,5 @@
 {
+  "homepage": "https://stendur.github.io/stendur.github.io",
   "name": "my-portfolio",
   "version": "1.0.0",
   "private": true,
@@ -12,7 +13,9 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^3.4.1",
