@@ -59,131 +59,66 @@
 
   }
   
-  /***TABLETS***/
+  /***ALL OTHER DEVICES***/
   @media only screen and (min-width: 768px) {
     /**********GLOBAL********/
     *{
       box-sizing: border-box;
     }
-  
-    body{
+    
+    :root {
+      --mainColor: #FF940E;
+    }
+    
+    html, body{
+      min-height: 100%;
       font: 1em Helvetica, Arial, sans-serif;
       background-color: #F2F7F7;
     }
-  
+    
     h2{
       color: var(--mainColor);
-      font-family: 'Cabin',sans-serif;
+      font-family: 'Cabin', sans-serif;
     }
-  
+    
     h1{
+      margin-right: 20px;
       font-family: 'Karla', sans-serif;
+    
     }
-  
     p{
       font-family: 'Libre Franklin', sans-serif;
     }
-  
+    
     .link:link {
-      color: #7B9B37;
+      color: var(--mainColor);
       text-decoration: none;
     }
-  
+    
     /* visited link */
     .link:visited {
       color: var(--mainColor);
     }
-  
+    
     /* mouse over link */
     .link:hover {
       color: orange;
     }
-    /****CONTAINER****/
+    
+    /*********CONTAINER******/
     .container{
-      max-width: 80%;
+      max-width: 40%;
+      min-height: 92vh;
       margin: auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
+      min-height: 95vh;
     }
-  
-    /*******MAIN******/
-    main{
+    .content {
+      flex-grow: .5;
       flex: 1;
     }
-  }
-  
-  
-  @media only screen and (min-width: 992px){
-  /************GLOBAL************/
-  *{
-    box-sizing: border-box;
-  }
-  
-  :root {
-    --mainColor: #FF940E;
-  }
-  
-  html, body{
-    min-height: 100%;
-  }
-  body{
-    padding: 20px;
-    font: 1em Helvetica, Arial, sans-serif;
-    background-color: #F2F7F7;
-    /* background-image: linear-gradient(#fff8f1, #ffd3a2); */
-  
-  }
-  
-  h2{
-    color: var(--mainColor);
-    font-family: 'Cabin', sans-serif;
-  }
-  
-  h1{
-    margin-right: 20px;
-    font-family: 'Karla', sans-serif;
-  
-  }
-  p{
-    font-family: 'Libre Franklin', sans-serif;
-  }
-  
-  .link:link {
-    color: var(--mainColor);
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  .link:visited {
-    color: var(--mainColor);
-  }
-  
-  /* mouse over link */
-  .link:hover {
-    color: orange;
-  }
-  
-  /*********CONTAINER******/
-  .container{
-    max-width: 40%;
-    min-height: 92vh;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  .content {
-    flex-grow: 1;
-  }
-  
-  /*******MAIN******/
-  main{
-    flex: 1;
-  }
-  
-  }
+    
+    }

@@ -4,7 +4,7 @@ import headerStyles from "../styles/header.module.scss"
 
 const Header = () => {
     return (
-        <header>
+        <header className={headerStyles.header}>
             <h1>Steven Piccirelli</h1>
             <img class=".headshot" src={me} alt="Steve" />
         </header>

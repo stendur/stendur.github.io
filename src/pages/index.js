@@ -6,11 +6,11 @@ import * as layoutStyles from "../styles/header.module.scss"
 const IndexPage = () => {
   return (
     <Layout>
+      <header className={layoutStyles.header}>
+          <h1>Steven Piccirelli</h1>
+          <img className={layoutStyles.headshot} src={me} alt="Steve"/>
+      </header>
       <body>
-          <header>
-              <h1>Steven Piccirelli</h1>
-              <img className={layoutStyles.headshot} src={me} alt="Steve"/>
-          </header>
           <main>
             <article class="article1">
               <h2>My First Website</h2>
