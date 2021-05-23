@@ -19,7 +19,9 @@ class ActingImages extends React.Component {
     if (!this.state.vidToggle) {
       return (
         <div>
-          <button onClick={this.handleClick}>Videos</button>
+          <div className={actingStyles.toggle}>
+            <button className={actingStyles.buttons} onClick={this.handleClick}>Videos</button>
+          </div>
           <div className={actingStyles.pictures}>
             <StaticImage src="../images/pictures/acting4.jpg" className={actingStyles.images} />
 
@@ -43,7 +45,9 @@ class ActingImages extends React.Component {
     } else {
       return (
         <div id="videos">
-          <button onClick={this.handleClick}>Pictures</button>
+          <div className={actingStyles.toggle}>
+            <button className={actingStyles.buttons} onClick={this.handleClick}>Pictures</button>
+          </div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/LomgMZqLZS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/HuHGSj8Ct3c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
