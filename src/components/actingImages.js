@@ -44,12 +44,14 @@ class ActingImages extends React.Component {
       )
     } else {
       return (
-        <div id="videos">
+        <div>
           <div className={actingStyles.toggle}>
             <button className={actingStyles.buttons} onClick={this.handleClick}>Pictures</button>
           </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/LomgMZqLZS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/HuHGSj8Ct3c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div className={actingStyles.videos}>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LomgMZqLZS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HuHGSj8Ct3c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
       )
     }
