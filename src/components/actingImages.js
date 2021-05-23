@@ -32,10 +32,10 @@ render () {
                 <StaticImage src="../images/pictures/acting1.jpg" className={actingStyles.images}/>
 
 
-                {/* <StaticImage src="../images/pictures/acting3.jpg" className={actingStyles.images}/>
+                <StaticImage src="../images/pictures/acting3.jpg" className={actingStyles.images}/>
 
 
-                <StaticImage src="../images/pictures/acting2.jpg" className={actingStyles.images}/> */}
+                <StaticImage src="../images/pictures/acting2.jpg" className={actingStyles.images}/>
 
         </div>
         </div>
