@@ -1,4 +1,4 @@
-nav{
+nav {
   margin-bottom: 20px;
   padding: 5px;
   /* background-color: #9E504C; */
@@ -8,7 +8,7 @@ nav{
   align-items: center;
   justify-content: center;
 }
-nav a{
+nav a {
   padding: 20px;
   background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
   background-position: 0% 100%;
@@ -16,14 +16,14 @@ nav a{
   background-size: 4px 4px;
   color: #323237;
   text-decoration: none;
-  transition: background-size .2s;
-  font-family: 'Cabin', sans-serif;
+  transition: background-size 0.2s;
+  font-family: "Cabin", sans-serif;
   white-space: nowrap;
 }
 
 nav a:hover {
   background-size: 4px 50px;
 }
-  :root {
-    --mainColor: #FF940E;
-  }
+:root {
+  --mainColor: #ff940e;
+}

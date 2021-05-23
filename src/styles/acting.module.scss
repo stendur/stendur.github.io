@@ -1,19 +1,17 @@
-.pictures{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    flex-direction: row;
-    
-    }
-    
-    .images{
-      margin: 10px;
-      box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
-      max-width: 30vh;
-      height: auto;
-    
-    }
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+}
 
-    .toggle{
-        margin-bottom: 5%;
-      }
+.images {
+  margin: 10px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+  max-width: 30vh;
+  height: auto;
+}
+
+.toggle {
+  margin-bottom: 5%;
+}

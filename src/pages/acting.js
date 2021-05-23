@@ -5,7 +5,7 @@ import ActingImages from "../components/actingImages"
 const Acting = () => {
   return (
     <Layout>
-      <ActingImages/>
+      <ActingImages />
     </Layout>
 
   )

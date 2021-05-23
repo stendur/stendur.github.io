@@ -7,26 +7,26 @@ const IndexPage = () => {
   return (
     <Layout>
       <header className={layoutStyles.header}>
-          <h1>Steven Piccirelli</h1>
-          <img className={layoutStyles.headshot} src={me} alt="Steve"/>
+        <h1>Steven Piccirelli</h1>
+        <img className={layoutStyles.headshot} src={me} alt="Steve" />
       </header>
       <body>
-          <main>
-            <article class="article1">
-              <h2>My First Website</h2>
-              <p>Welcome to my first website built with React! Take a look around. I'm always in the process of improving it!</p>
-            </article>
-            <article class="article1">
-              <h2>About Me</h2>
-              <p>Hi, I'm Steve. I'm an actor and programmer.</p>
+        <main>
+          <article class="article1">
+            <h2>My First Website</h2>
+            <p>Welcome to my first website built with React! Take a look around. I'm always in the process of improving it!</p>
+          </article>
+          <article class="article1">
+            <h2>About Me</h2>
+            <p>Hi, I'm Steve. I'm an actor and programmer.</p>
 
-              <p>I used to work
-              at a library working on a project to digitize six decades worth of
+            <p>I used to work
+            at a library working on a project to digitize six decades worth of
             community newspapers. Click the programming tab for more info.</p>
 
-              <p>Or click the acting tab if you're interested in my acting life!</p>
-            </article>
-          </main>
+            <p>Or click the acting tab if you're interested in my acting life!</p>
+          </article>
+        </main>
 
       </body>
     </Layout>
